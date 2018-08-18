@@ -3,8 +3,13 @@ var synth = new Tone.Synth().toMaster();
 
 function playSound(note) {
     console.log(note);
-    synth.triggerAttackRelease("C4", "4n");
-  
+    synth.triggerAttackRelease(note+"4", "8n");
+
+}
+function playSoundOctaveHigher(note) {
+    console.log(note);
+    synth.triggerAttackRelease(note + "5", "8n");
+
 }
 
 
