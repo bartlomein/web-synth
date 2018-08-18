@@ -1,0 +1,19 @@
+body{
+    max-width:1000px;
+
+}
+.container{
+    margin-top:50px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.keyboard-container{
+    display:flex;
+}
+.key{
+    height:100px;
+    width:30px;
+    border: 1px solid black;
+    margin:2px;
+}
